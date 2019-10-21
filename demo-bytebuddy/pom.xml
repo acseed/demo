@@ -9,19 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demo-mybatis</artifactId>
+    <artifactId>demo-bytebuddy</artifactId>
 
-    <name>demo-mybatis</name>
+    <name>demo-bytebuddy</name>
+
+    <properties>
+    </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.10.1</version>
         </dependency>
     </dependencies>
 </project>
