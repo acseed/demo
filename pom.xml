@@ -16,6 +16,8 @@
         <module>demo-mybatis</module>
         <module>demo-jdk</module>
         <module>demo-bytebuddy</module>
+        <module>demo-algorithms</module>
+        <module>demo-dubbo</module>
     </modules>
 
     <name>demo</name>

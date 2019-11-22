@@ -1,6 +1,7 @@
 package com.kalotclub.demo.jdk.hashmap;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 /**
  * @author hongchen.cao
@@ -8,7 +9,7 @@ import java.util.HashMap;
  **/
 public class HashMapMain {
     public static void main(String[] args) {
-        HashMap<User, String> map = new HashMap<>();
+        HashMap<User, String> map = new LinkedHashMap<>();
         map.put(new User(), "xiaoming");
         map.put(new User(), "xiaogang");
         map.put(new User(), "xiaohong");

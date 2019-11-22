@@ -18,13 +18,13 @@ public class User {
         this.age = age;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        return false;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(age);
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        return false;
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(age);
+//    }
 }
